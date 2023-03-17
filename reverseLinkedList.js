@@ -13,7 +13,6 @@ function reverseList(head) {
 }
 
 // Recursively reverse the linkedList
-
 function reverseLinkedListRecursively(head) {
     if (head === null || head.next === null) {
       return head;
